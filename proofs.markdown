@@ -44,7 +44,7 @@ Each node in $$K_{10}$$ has $$9$$ edges incident to it while each node in the Pe
 
 Finding the eigenvalues of any matrix, let alone one that of size $$10 * 10$$ is a fairly computational task and isn't enlightening in any form whatsoever. So why are we trying to find the eigenvalues of the petersen graph? Well we can take advantage of the fact that the adjacency matrix represents information that carries physical meaning (vertex-edge relations of a graph) and can use the language of linear transformations and some geometric intuition to gain insight into the eigenvalues of this graph.
 
-Let $A$ be the adjacency matrix of the Petersen Graph. If $$A$$ encodes information about the number of length $$1$$, $$A^2$$ represents information about the number of length $$2$$ paths, and in general, $$A^k$$ encodes information about the number of $k$-length paths in a given graph. With this information in our belt, we know can make a pretty nifty observation. 
+Let $A$ be the adjacency matrix of the Petersen Graph. If $$A$$ encodes information about the number of length $$1$$, $$A^2$$ represents information about the number of length $$2$$ paths, and in general, $$A^k$$ encodes information about the number of $$k$$-length paths in a given graph. With this information in our belt, we know can make a pretty nifty observation. 
 
 Consider the $$i, j^{th}$$ entry of the matrix $$A^2 + A$$ (the sum of the matrices representing information about the number of length $$2$$ paths and the regular adjacency matrix of the petersen graph). Since, every vertex in the petersen graph has degree $$3$$, each vertex has $$3$$ length $$2$$ paths back itself whereas there are no length $1$ paths from a vertex to itself. With this information under our belt, we can say that 
 
@@ -56,13 +56,13 @@ $$
 \end{cases}
 $$
 
-This follows from noticing that any pair of vertices not already joined by an edge are joined by a unique path of length $2$; namely there is a unique vertex which is joined to both. 
+This follows from noticing that any pair of vertices not already joined by an edge are joined by a unique path of length $$2$$; namely there is a unique vertex which is joined to both. 
 
-We can therefore conclude that the matrix $A$ satisfies the matrix equation $A^2 + A = 2I + J$. 
+We can therefore conclude that the matrix $$A$$ satisfies the matrix equation $$A^2 + A = 2I + J$$. 
 
 Note that $$J$$ has eigenvalue 10 (of multiplicity 1 with eigenvector 1) and eigenvalue 0 of multiplicity 9. Thus $$2I + J$$ has eigenvalue 12 of multiplicity 1 and eigenvalue 2 of multiplicity 9. Now if $x$ is an eigenvector of A of eigenvalue $$\lambda$$ then $$x$$ is an eigenvector of $$A^2 + A$$ of eigenvalue $$\lambda^2 + \lambda$$. 
 
-Thus the possible eigenvectors for $$A$$ are prescribed. We already know that $$\mathbf{1}$$ is an eigenvector of $A$ of eigenvalue 3 (or at least it is easy to check). The other 9 eigenvalues must satisfy $$\lambda^2 + \lambda = 2$$ thus either 1 or -2 with total multiplicity being 9. Now the trace of $$A$$, which is 0, is the sum of the eigenvalues and so we deduce that 1 has multiplicity 5 and -2 has multiplicity 4.
+Thus the possible eigenvectors for $$A$$ are prescribed. We already know that $$\mathbf{1}$$ is an eigenvector of $$A$$ of eigenvalue 3 (or at least it is easy to check). The other 9 eigenvalues must satisfy $$\lambda^2 + \lambda = 2$$ thus either 1 or -2 with total multiplicity being 9. Now the trace of $$A$$, which is 0, is the sum of the eigenvalues and so we deduce that 1 has multiplicity 5 and -2 has multiplicity 4.
 
 ## the actual proof
 **Lemma:** $$K_{10} = J_{10} - I_{10}$$  
@@ -92,7 +92,7 @@ Using the aforementioned proof and taking orthogonal complements, we have that $
 
 $$\therefore \text{Null} (A_P - I_{10}) \subseteq \text{Span} (1)^{\perp}$$
 
-The above results are also true for $A_Q - I_{10}$ since $Q$ is also a Petersen graph. 
+The above results are also true for $$A_Q - I_{10}$$ since $$Q$$ is also a Petersen graph. 
 
 **Lemma** $$\text{Null} (A_P - I_{10}) \cap \text{Null} (A_Q - I_{10}) \neq \{0\}$$. 
 
