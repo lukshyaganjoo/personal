@@ -27,6 +27,3 @@ I can be reached out to on [email](mailto:
 lukshyaganjoo@cs.washington.edu), 
 [instagram](https://www.instagram.com/matchstickmaan/) and more occasionally I hop on to [twitter](https://twitter.com/matchstickmaan). If you're feeling incredibly fancy, you can always send me a request on 
 [github](https://github.com/lukshyaganjoo)
-
-Here is an old and most likely outdated copy of my CV 
-{% pdf "images/resume.pdf" %}
