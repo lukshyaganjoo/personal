@@ -23,7 +23,6 @@ uses: jeffreytse/jekyll-deploy-action@v0.4.0
 
 title: Lukshya Ganjoo
 email: lganjoo@cs.washington.edu
-description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "/personal" 
 url: "" 
 twitter_username: matchstickmaan
