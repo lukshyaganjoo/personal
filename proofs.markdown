@@ -38,7 +38,7 @@ Since we're dealing with an undirected graph in this proof, every edge $$ab$$ is
 The way to think about it is that the adjacency matrix of a graph $$G$$ encodes information about the number of length $$1$$ paths between any pair of vertices $$i$$ and $$j$$, i.e. information about the vertices immediately "adjacent" to each other.
 
 ### motivation:
-Each node in $$K_{10}$$ has $$9$$ edges incident to it while each node in the Petersen graph has $3$ edges incident to it. So it is plausible that $$K_{10}$$ can be covered perfectly by $$3$$ Petersen graphs. This means that you can lay down three Petersens on $$K_{10}$$ so that vertices go to vertices and each edge of $$K_{10}$$ lies under an edge of exactly one of the three Petersens. This hints at some pretty cutting-edge stuff in the field of graph decomposition and graph coloring and the parallels in higher dimensions is absolutely incredible. With some linear algebra at our disposal, we will show that it is not possible to completely cover $$K_{10}$$ with three Petersen graphs.
+Each node in $$K_{10}$$ has $$9$$ edges incident to it while each node in the Petersen graph has $$3$$ edges incident to it. So it is plausible that $$K_{10}$$ can be covered perfectly by $$3$$ Petersen graphs. This means that you can lay down three Petersens on $$K_{10}$$ so that vertices go to vertices and each edge of $$K_{10}$$ lies under an edge of exactly one of the three Petersens. This hints at some pretty cutting-edge stuff in the field of graph decomposition and graph coloring and the parallels in higher dimensions is absolutely incredible. With some linear algebra at our disposal, we will show that it is not possible to completely cover $$K_{10}$$ with three Petersen graphs.
 
 ## eigenvalues of the petersen graph
 
@@ -105,7 +105,7 @@ $$\text{Null} (A_P - I_{10}) \subseteq \text{Span} (1)^{\perp}$$
 $$\text{Null} (A_Q - I_{10}) \subseteq \text{Span} (1)^{\perp}$$.  
 $$B_{ \text{Null} (A_P - I_{10}) } \cup B_{\text{Null} (A_Q - I_{10})}$$ has 10 vectors in $$R^{9}$$ since the bases of each of the null spaces has 5 vectors. Therefore $$B_{ \text{Null} (A_P - I_{10}) } \cup B_{\text{Null} (A_Q - I_{10})}$$ must be linearly dependent (since they have more vectors than the dimension of the space they exist in).
 
-Therefore $$B_{S_1} \cap B_{S_2} \neq \{0\}$$ where $$S_1$$ and $$S_2$$ refer to the two subspaces above. This implies the existence of a non-zero vector $w$ that exists in their intersection. 
+Therefore $$B_{S_1} \cap B_{S_2} \neq \{0\}$$ where $$S_1$$ and $$S_2$$ refer to the two subspaces above. This implies the existence of a non-zero vector $$w$$ that exists in their intersection. 
 
 The larger consequence of this is that this vector $$w$$ is orthogonal to the all ones vector, i.e. $${\bf 1}^{T}w = 0$$
 
