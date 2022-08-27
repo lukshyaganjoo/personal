@@ -35,7 +35,7 @@ $$
 
 Since we're dealing with an undirected graph in this proof, every edge $ab$ is counted as the same edge as if there were an edge $ba$ in the graph. As a consequence, the adjacency matrices for this family of graphs will be symmetric. 
 
-The way to think about it is that the adjacency matrix of a graph $G$ encodes information about the number of length $1$ paths between any pair of vertices $i$ and $j$, i.e. information about the vertices immediately "adjacent" to each other.
+The way to think about it is that the adjacency matrix of a graph $$G$$ encodes information about the number of length $$1$$ paths between any pair of vertices $$i$$ and $$j$$, i.e. information about the vertices immediately "adjacent" to each other.
 
 ### motivation:
 Each node in $$K_{10}$$ has $$9$$ edges incident to it while each node in the Petersen graph has $3$ edges incident to it. So it is plausible that $$K_{10}$$ can be covered perfectly by $$3$$ Petersen graphs. This means that you can lay down three Petersens on $$K_{10}$$ so that vertices go to vertices and each edge of $$K_{10}$$ lies under an edge of exactly one of the three Petersens. This hints at some pretty cutting-edge stuff in the field of graph decomposition and graph coloring and the parallels in higher dimensions is absolutely incredible. With some linear algebra at our disposal, we will show that it is not possible to completely cover $$K_{10}$$ with three Petersen graphs.
