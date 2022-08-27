@@ -33,7 +33,7 @@ A_{i, j} = \begin{cases}
             \end{cases}
 $$
 
-Since we're dealing with an undirected graph in this proof, every edge $ab$ is counted as the same edge as if there were an edge $ba$ in the graph. As a consequence, the adjacency matrices for this family of graphs will be symmetric. 
+Since we're dealing with an undirected graph in this proof, every edge $$ab$$ is counted as the same edge as if there were an edge $$ba$$ in the graph. As a consequence, the adjacency matrices for this family of graphs will be symmetric. 
 
 The way to think about it is that the adjacency matrix of a graph $$G$$ encodes information about the number of length $$1$$ paths between any pair of vertices $$i$$ and $$j$$, i.e. information about the vertices immediately "adjacent" to each other.
 
