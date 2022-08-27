@@ -60,7 +60,7 @@ This follows from noticing that any pair of vertices not already joined by an ed
 
 We can therefore conclude that the matrix $$A$$ satisfies the matrix equation $$A^2 + A = 2I + J$$. 
 
-Note that $$J$$ has eigenvalue 10 (of multiplicity 1 with eigenvector 1) and eigenvalue 0 of multiplicity 9. Thus $$2I + J$$ has eigenvalue 12 of multiplicity 1 and eigenvalue 2 of multiplicity 9. Now if $x$ is an eigenvector of A of eigenvalue $$\lambda$$ then $$x$$ is an eigenvector of $$A^2 + A$$ of eigenvalue $$\lambda^2 + \lambda$$. 
+Note that $$J$$ has eigenvalue 10 (of multiplicity 1 with eigenvector 1) and eigenvalue 0 of multiplicity 9. Thus $$2I + J$$ has eigenvalue 12 of multiplicity 1 and eigenvalue 2 of multiplicity 9. Now if $$x$$ is an eigenvector of A of eigenvalue $$\lambda$$ then $$x$$ is an eigenvector of $$A^2 + A$$ of eigenvalue $$\lambda^2 + \lambda$$. 
 
 Thus the possible eigenvectors for $$A$$ are prescribed. We already know that $$\mathbf{1}$$ is an eigenvector of $$A$$ of eigenvalue 3 (or at least it is easy to check). The other 9 eigenvalues must satisfy $$\lambda^2 + \lambda = 2$$ thus either 1 or -2 with total multiplicity being 9. Now the trace of $$A$$, which is 0, is the sum of the eigenvalues and so we deduce that 1 has multiplicity 5 and -2 has multiplicity 4.
 
@@ -116,7 +116,7 @@ $$
     &\
     A_P(v) = \lambda v \\
     &\
-    A_P(v) = v &&\text{Since 1 is an eigenvalue of $A_P$} \\
+    A_P(v) = v &&\text{Since 1 is an eigenvalue of $$A_P$$} \\
     &\
     A_R(w) = J_{10}(w) - I_{10} (w) - A_P(w) - A_Q(w) &&\text{Using the formula above}\\
     &\
