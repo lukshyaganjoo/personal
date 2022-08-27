@@ -12,13 +12,13 @@ title: proofs
 Before I get to some of the really cool motivation for this problem, I wanna make sure that everyone here is familiar with the the kinds of graphs we'll be working with in the domain of this proof. 
 
 ![petersen graph](images/Petersen1_tiny.png)
-This is the Petersen graph. Veteran graph theoreticians will be familiar with this pentagram inscribed within the spokes of a regular pentagon. The Petersen graph is used as a counter example in tons of graph theory proofs which is one of the reasons it's so well studied, partly what we'll be doing here. The Petersen graph has $10$ nodes and $15$ edges, and is what we call $3$-regular. 
+This is the Petersen graph. Veteran graph theoreticians will be familiar with this pentagram inscribed within the spokes of a regular pentagon. The Petersen graph is used as a counter example in tons of graph theory proofs which is one of the reasons it's so well studied, partly what we'll be doing here. The Petersen graph has $$10$$ nodes and $$15$$ edges, and is what we call $$3$$-regular. 
 
 **Note:** A graph is said to be $$d$$-regular $$iff$$ every vertex has the same degree $$d$$. (i.e. it is strongly regular)
 
 ![complete graph](images/full.png)
 
-This is the complete graph on $10$ vertices. For the sake of convenience, we will refer to this graph as $K_{10}$. It has $10$ nodes and $45$ edges (i.e., all possible edges among $10$ nodes). If we follow along from the same scheme of defining things, the number of edges in $K_{n}$ (the complete graph with $n$ vertices) is given by $\binom{n}{2}$. 
+This is the complete graph on $$10$$ vertices. For the sake of convenience, we will refer to this graph as $$K_{10}$$. It has $$10$$ nodes and $$45$$ edges (i.e., all possible edges among $$10$$ nodes). If we follow along from the same scheme of defining things, the number of edges in $$K_{n}$$ (the complete graph with $$n$$ vertices) is given by $$\binom{n}{2}$$. 
 
 In this proof, $$J_{n}$$ refers to the all ones matrix with dimension/size $$n * n$$
 
@@ -49,7 +49,7 @@ Let $A$ be the adjacency matrix of the Petersen Graph. If $$A$$ encodes informat
 Consider the $$i, j^{th}$$ entry of the matrix $$A^2 + A$$ (the sum of the matrices representing information about the number of length $$2$$ paths and the regular adjacency matrix of the petersen graph). Since, every vertex in the petersen graph has degree $$3$$, each vertex has $$3$$ length $$2$$ paths back itself whereas there are no length $1$ paths from a vertex to itself. With this information under our belt, we can say that 
 
 $$
-(A^2 + A)_{i, /; j} = 
+(A^2 + A)_{i, j} = 
 \begin{cases}
 3 & \forall i = j \\
 1 & \forall i \neq j
@@ -124,7 +124,7 @@ $$
 \end{align*}
 $$
 
-We now compute $$J_{10} (w)$ where $w \in \text{Null} (A_P - I_{10})$$  
+We now compute $$J_{10} (w)$$ where $$w \in \text{Null} (A_P - I_{10})$$  
 
 $$ J_{10}w = \begin{bmatrix}
     1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
