@@ -175,3 +175,7 @@ $$ J_{10}w = \begin{bmatrix}
 $\therefore$ $A_R(w) = J_{10}(w) - w - w - w = -3w$.
 
 We have therefore arrived at a contradiction. In the beginning of the proof, we found all the eigenvalues of the Petersen Graph and concluded that -3 was not amongst that list. However as we can see, we have proved that -3 in fact is an eigenvalue for the adjacency matrix of a Petersen graph. Therefore it is not possible to cover the full graph or $K_{10}$ with 3 Petersen graphs. 
+
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
