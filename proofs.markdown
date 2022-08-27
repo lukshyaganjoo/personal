@@ -84,7 +84,7 @@ Therefore we can assert that $$\text{Span}(1) \subseteq \text{Row} (A_P - I_{10}
 **side proof**  
 Let $$A$$ and $$B$$ be two subspaces such that $$A \subseteq B$$.  
 **claim** $$B^{\perp} \subseteq A^{\perp}$$  
-**proof** Let $$x$$ be an arbitrary vector such that $$x \in B^{\perp}$$. By definition of the orthogonal complement, we have that $$\forall v \in B, x^{T}v = 0$$, i.e. they are orthogonal. However we know that any vector contained in $B$ will be a vector contained in $$A$$, ($A$ is a subset of the vectors contained in $$B$$). Therefore we can reframe the above statement to be $$\forall v \in A, x^{T}v = 0$$, that is $$x$$ is orthogonal to every vector in $$A$$. By definition, this means that $$x \in A^{\perp}$$
+**proof** Let $$x$$ be an arbitrary vector such that $$x \in B^{\perp}$$. By definition of the orthogonal complement, we have that $$\forall v \in B, x^{T}v = 0$$, i.e. they are orthogonal. However we know that any vector contained in $B$ will be a vector contained in $$A$$, ($$A$$ is a subset of the vectors contained in $$B$$). Therefore we can reframe the above statement to be $$\forall v \in A, x^{T}v = 0$$, that is $$x$$ is orthogonal to every vector in $$A$$. By definition, this means that $$x \in A^{\perp}$$
 
 $$\therefore A \subseteq B \rightarrow B^{\perp} \subseteq A^{\perp}$$
 
