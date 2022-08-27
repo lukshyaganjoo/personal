@@ -116,7 +116,7 @@ $$
     &\
     A_P(v) = \lambda v \\
     &\
-    A_P(v) = v &&\text{Since 1 is an eigenvalue of $$A_P$$} \\
+    A_P(v) = v &&\text{Since 1 is an eigenvalue of $A_P$} \\
     &\
     A_R(w) = J_{10}(w) - I_{10} (w) - A_P(w) - A_Q(w) &&\text{Using the formula above}\\
     &\
