@@ -60,7 +60,7 @@ This follows from noticing that any pair of vertices not already joined by an ed
 
 We can therefore conclude that the matrix $A$ satisfies the matrix equation $A^2 + A = 2I + J$. 
 
-Note that $$J$$ has eigenvalue 10 (of multiplicity 1 with eigenvector 1) and eigenvalue 0 of multiplicity 9. Thus $$2I + J$$ has eigenvalue 12 of multiplicity 1 and eigenvalue 2 of multiplicity 9. Now if $x$ is an eigenvector of A of eigenvalue $\lambda$ then $$x$$ is an eigenvector of $$A^2 + A$$ of eigenvalue $$\lambda^2 + \lambda$$. 
+Note that $$J$$ has eigenvalue 10 (of multiplicity 1 with eigenvector 1) and eigenvalue 0 of multiplicity 9. Thus $$2I + J$$ has eigenvalue 12 of multiplicity 1 and eigenvalue 2 of multiplicity 9. Now if $x$ is an eigenvector of A of eigenvalue $$\lambda$$ then $$x$$ is an eigenvector of $$A^2 + A$$ of eigenvalue $$\lambda^2 + \lambda$$. 
 
 Thus the possible eigenvectors for $$A$$ are prescribed. We already know that $$\mathbf{1}$$ is an eigenvector of $A$ of eigenvalue 3 (or at least it is easy to check). The other 9 eigenvalues must satisfy $$\lambda^2 + \lambda = 2$$ thus either 1 or -2 with total multiplicity being 9. Now the trace of $$A$$, which is 0, is the sum of the eigenvalues and so we deduce that 1 has multiplicity 5 and -2 has multiplicity 4.
 
@@ -172,7 +172,7 @@ $$ J_{10}w = \begin{bmatrix}
     0
 \end{bmatrix} $$
 
-$$\therefore$ $A_R(w) = J_{10}(w) - w - w - w = -3w$$.
+$$\therefore$$ $$A_R(w) = J_{10}(w) - w - w - w = -3w$$.
 
 We have therefore arrived at a contradiction. In the beginning of the proof, we found all the eigenvalues of the Petersen Graph and concluded that -3 was not amongst that list. However as we can see, we have proved that -3 in fact is an eigenvalue for the adjacency matrix of a Petersen graph. Therefore it is not possible to cover the full graph or $$K_{10}$$ with 3 Petersen graphs. 
 
