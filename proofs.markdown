@@ -46,7 +46,7 @@ Finding the eigenvalues of any matrix, let alone one that of size $$10 * 10$$ is
 
 Let $$A$$ be the adjacency matrix of the Petersen Graph. If $$A$$ encodes information about the number of length $$1$$, $$A^2$$ represents information about the number of length $$2$$ paths, and in general, $$A^k$$ encodes information about the number of $$k$$-length paths in a given graph. With this information in our belt, we know can make a pretty nifty observation. 
 
-Consider the $$i, j^{th}$$ entry of the matrix $$A^2 + A$$ (the sum of the matrices representing information about the number of length $$2$$ paths and the regular adjacency matrix of the petersen graph). Since, every vertex in the petersen graph has degree $$3$$, each vertex has $$3$$ length $$2$$ paths back itself whereas there are no length $1$ paths from a vertex to itself. With this information under our belt, we can say that 
+Consider the $$i, j^{th}$$ entry of the matrix $$A^2 + A$$ (the sum of the matrices representing information about the number of length $$2$$ paths and the regular adjacency matrix of the petersen graph). Since, every vertex in the petersen graph has degree $$3$$, each vertex has $$3$$ length $$2$$ paths back itself whereas there are no length $$1$$ paths from a vertex to itself. With this information under our belt, we can say that 
 
 $$
 (A^2 + A)_{i, j} = 
