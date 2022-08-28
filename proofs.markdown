@@ -22,8 +22,7 @@ This is the complete graph on $$10$$ vertices. For the sake of convenience, we w
 
 In this proof, $$J_{n}$$ refers to the all ones matrix with dimension/size $$n * n$$.
 
-The row space of a matrix $$A$$ is defined as follows, 
-$$\text{Row}(A) = \{y^{T}A : y \in \mathbb{R}^{n} }\$$
+The row space of a matrix $$A$$ is defined as follows, $$\text{Row}(A) = \set{$y^T A$}{$y$ \in $\mathbb{R}^{n}$ $$
 
 **adjacency matrices:** 
 
