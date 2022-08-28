@@ -7,6 +7,7 @@ permalink: /stuff i've done/
 The stuff I've been up to 
 - [academic work](#academic-work)
 - [miscellaneous work](#miscellaneous-work)
+
 # academic work
 
 ## autumn 2021
