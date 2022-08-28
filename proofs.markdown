@@ -20,7 +20,10 @@ This is the Petersen graph. Veteran graph theoreticians will be familiar with th
 
 This is the complete graph on $$10$$ vertices. For the sake of convenience, we will refer to this graph as $$K_{10}$$. It has $$10$$ nodes and $$45$$ edges (i.e., all possible edges among $$10$$ nodes). If we follow along from the same scheme of defining things, the number of edges in $$K_{n}$$ (the complete graph with $$n$$ vertices) is given by $$\binom{n}{2}$$. 
 
-In this proof, $$J_{n}$$ refers to the all ones matrix with dimension/size $$n * n$$
+In this proof, $$J_{n}$$ refers to the all ones matrix with dimension/size $$n * n$$.
+
+The row space of a matrix $$A$$ is defined as follows, 
+$$\text{Row}(A) = \{y^{T}A : y \in \mathbb{R}^{n} }\$$
 
 **adjacency matrices:** 
 
