@@ -3,6 +3,10 @@ layout: page
 title: stuff i've done
 permalink: /stuff i've done/
 ---
+
+The stuff I've been up to 
+- [academic work](#academic-work)
+- [miscellaneous work](#miscellaneous-work)
 # academic work
 
 ## autumn 2021
@@ -38,3 +42,10 @@ permalink: /stuff i've done/
 - CSE 351 : Hardware/Software Interface
 - MATH 334 : Accelerated Advanced Honors Calculus
 - TA: CSE 312 (Foundations of Computing II)
+
+# miscellaneous work
+
+- [MUPL Interepreter](https://github.com/lukshyaganjoo/MUPL-Interpreter-)
+- [Huffman Coding](https://github.com/lukshyaganjoo/HuffmanCoding)
+- [Galaga Clone](https://github.com/lukshyaganjoo/Galaga)
+- [A review of Quantum and Quantum-Inspired Classical Algorithms](https://github.com/lukshyaganjoo/Quantum-Quantum-Inspired-Classical-Algorithms)
