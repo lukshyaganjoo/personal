@@ -225,4 +225,13 @@ nodes in level 2 is given by $$k(k - 1)$$.
 Generalizing, we have that the number of nodes in a level 
 $$j$$ $$\leq k(k - 1)^{j - 1}$$.
 
+Notice that we can count the nodes from level 1 to $$d$$ (we can't have more than 
+$$d$$ levels) using a sum given by $$\sum_{i = 1}^{d} k(k - 1)^{i - 1}$$. We also have to account 
+for the root node which adds 1 to this total sum formula. After some substitution of variables, we get that
+the final expression for the upper bound comes out to be 
+
+$$M = 1 + k \sum_{i = 1}^{d - 1} (k - 1)^{i - 1}$$
+
+**types of moore graphs**
+
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
