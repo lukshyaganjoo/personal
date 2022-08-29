@@ -181,7 +181,10 @@ We have therefore arrived at a contradiction. In the beginning of the proof, we 
 ## key takeaways 
 How cool is this!! All we did here was take advantage of some fairly simple 
 linear algebra to prove a really fundamental fact about graphs that pop up quite frequently 
-in the study of networks. If there's anything I want you to take away from this proof, it's that 
+in the study of networks. For those interested, there is a conjecture in the "colorful" field of graph 
+decomposition by the name of [Ringel's Conjecture](https://www.quantamagazine.org/mathematicians-prove-ringels-graph-theory-conjecture-20200219/)
+that actually illustrates how exactly you can cover complete 
+graphs of this variety. If there's anything I want you to take away from this proof, it's that 
 geometric intution is unparalleled and this technique of analyzing eigenvalues not only can save you 
 computation, it gives you a critical insight into what the graph actually represents, a deeper understanding 
 of what it "does", so to speak. It is so easy to get bogged down in what might just seem 
@@ -189,5 +192,7 @@ like computation after computation. But there is a bigger picture, and that bigg
 graph. 
 
 ## higher dimensions and moore graphs
+
+**definition:** 
 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
