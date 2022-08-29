@@ -16,7 +16,7 @@ obssessing over the next big thing in
 cs theory or trying to decipher an 
 algebra proof, I spend a lot of my 
 time writing and finding novel ways 
-to spruce up the humble bagel. I am 
+to spruce up the humble bagel and toast. I am 
 broadly interested in algorithmic 
 design, complexity theory,  spectral 
 graph theory and have gained a more newfound 
@@ -26,6 +26,6 @@ appreciation for all things quantum.
 I can be reached out to on [email](mailto: 
 lukshyaganjoo@cs.washington.edu), 
 [instagram](https://www.instagram.com/matchstickmaan/) and more occasionally I hop on to [twitter](https://twitter.com/matchstickmaan). If you're feeling incredibly fancy, you can always send me a request on 
-[github](https://github.com/lukshyaganjoo)
+[github](https://github.com/lukshyaganjoo).
 
-Here is an old and likely outdated copy of my [CV](images/resume.pdf)
+Here is an old and likely outdated copy of my [resume](images/resume.pdf)

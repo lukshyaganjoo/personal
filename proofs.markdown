@@ -201,5 +201,8 @@ The size of $$G$$ is bounded above by the Moore bound; In general, the largest d
 graphs are much smaller than as prescribed by the Moore bound.
 
 **the moore bound and moore graphs**
+The moore bound gives us an upper bound on how many nodes a graph can contain with 
+diameter $$k$$ and maximum degree $$d$$. An intuitive way to recognize what the moore bound 
+actually tells us is how *wide* a graph can get. 
 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
