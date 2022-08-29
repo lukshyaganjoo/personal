@@ -196,23 +196,23 @@ graph.
 **degree-diameter problem:**
 In graph theory, the degree diameter problem is the problem of finding the 
 largest possible graph $$G$$ (in terms of the size of its vertex set $$V$$) of diameter 
-k such that the largest degree of the vertices in $$G$$ is at most $$d$$. 
+$$d$$ such that the largest degree of the vertices in $$G$$ is at most $$k$$. 
 The size of $$G$$ is bounded above by the Moore bound; In general, the largest degree-diameter 
 graphs are much smaller than as prescribed by the Moore bound.
 
 **the moore bound and moore graphs**
 The moore bound gives us an upper bound on how many nodes a graph can contain with 
-diameter $$k$$ and maximum degree $$d$$. An intuitive way to recognize what the moore bound 
+diameter $$d$$ and maximum degree $$k$$. An intuitive way to recognize what the moore bound 
 actually tells us is how *wide* a graph can get. Let $$M$$ be the moore bound that a
 graph of the above specifications can meet, we therefore have that 
 
 $$
-M = 1 + d \sum_{i = 0}^{k - 1} (d - 1)^i
+M = 1 + k \sum_{i = 0}^{d - 1} (k - 1)^i
 $$
 
 Graphs that attain this bound $$M$$ are known as Moore graphs.
 
 **obtaining the moore bound**
-
+![moore graphs](images/notes.jpg)
 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
