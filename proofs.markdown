@@ -230,7 +230,7 @@ $$d$$ levels) using a sum given by $$\sum_{i = 1}^{d} k(k - 1)^{i - 1}$$. We als
 for the root node which adds 1 to this total sum formula. After some substitution of variables, we get that
 the final expression for the upper bound comes out to be 
 
-$$M = 1 + k \sum_{i = 1}^{d - 1} (k - 1)^{i - 1}$$
+$$M = 1 + k \sum_{i = 0}^{d - 1} (k - 1)^{i - 1}$$
 
 **types of moore graphs**
 
