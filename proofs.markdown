@@ -178,4 +178,16 @@ $$\therefore$$ $$A_R(w) = J_{10}(w) - w - w - w = -3w$$.
 
 We have therefore arrived at a contradiction. In the beginning of the proof, we found all the eigenvalues of the Petersen Graph and concluded that -3 was not amongst that list. However as we can see, we have proved that -3 in fact is an eigenvalue for the adjacency matrix of a Petersen graph. Therefore it is not possible to cover the full graph or $$K_{10}$$ with 3 Petersen graphs. 
 
+## key takeaways 
+How cool is this!! All we did here was take advantage of some fairly simple 
+linear algebra to prove a really fundamental fact about graphs that pop up quite frequently 
+in the study of networks. If there's anything I want you to take away from this proof, it's that 
+geometric intution is unparalleled and this technique of analyzing eigenvalues not only can save you 
+computation, it gives you a critical insight into what the graph actually represents, a deeper understanding 
+of what it "does", so to speak. It is so easy to get bogged down in what might just seem 
+like computation after computation. But there is a bigger picture, and that bigger picture is usually a bigger 
+graph. 
+
+## higher dimensions and moore graphs
+
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
