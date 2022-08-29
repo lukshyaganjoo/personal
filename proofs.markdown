@@ -193,6 +193,13 @@ graph.
 
 ## higher dimensions and moore graphs
 
-**definition:** 
+**degree-diameter problem:**
+In graph theory, the degree diameter problem is the problem of finding the 
+largest possible graph $$G$$ (in terms of the size of its vertex set $$V$$) of diameter 
+k such that the largest degree of the vertices in $$G$$ is at most $$d$$. 
+The size of $$G$$ is bounded above by the Moore bound; In general, the largest degree-diameter 
+graphs are much smaller than as prescribed by the Moore bound.
+
+**the moore bound and moore graphs**
 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
