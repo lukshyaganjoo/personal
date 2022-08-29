@@ -186,7 +186,7 @@ decomposition by the name of [Ringel's Conjecture](https://www.quantamagazine.or
 that actually illustrates how exactly you can cover complete 
 graphs of this variety. If there's anything I want you to take away from this proof, it's that 
 geometric intution is unparalleled and this technique of analyzing eigenvalues not only can save you 
-computation, it gives you a critical insight into what the graph actually represents, a deeper understanding 
+computation, it gives you critical insight into what the graph actually represents, a deeper understanding 
 of what it "does", so to speak. It is so easy to get bogged down in what might just seem 
 like computation after computation. But there is a bigger picture, and that bigger picture is usually a bigger 
 graph. 
@@ -203,6 +203,13 @@ graphs are much smaller than as prescribed by the Moore bound.
 **the moore bound and moore graphs**
 The moore bound gives us an upper bound on how many nodes a graph can contain with 
 diameter $$k$$ and maximum degree $$d$$. An intuitive way to recognize what the moore bound 
-actually tells us is how *wide* a graph can get. 
+actually tells us is how *wide* a graph can get. Let $$\mathcal{M}$$ be the moore bound that a
+graph of the above specifications can meet, we therefore have that 
+
+$$
+\mathcal{M} = 1 + d \; \sum_{i = 0}^{k - 1} (d - 1)^i
+$$
+
+Graphs that attain this bound $$\mathcal{M}$$ are known as Moore graphs.
 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
