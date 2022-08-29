@@ -207,7 +207,7 @@ actually tells us is how *wide* a graph can get. Let $$\mathcal{M}$$ be the moor
 graph of the above specifications can meet, we therefore have that 
 
 $$
-\mathcal{M} = 1 + d \; \sum_{i = 0}^{k - 1} (d - 1)^i
+\mathcal{M} = 1 + d \sum_{i = 0}^{k - 1} (d - 1)^i
 $$
 
 Graphs that attain this bound $$\mathcal{M}$$ are known as Moore graphs.
