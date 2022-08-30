@@ -232,6 +232,10 @@ the final expression for the upper bound comes out to be
 
 $$M = 1 + k \sum_{i = 0}^{d - 1} (k - 1)^{i - 1}$$
 
-**types of moore graphs**
+**types of moore graphs and its relation to the petersen graph**
+The entire reason we're even talking about moore graphs is that the petersen graph 
+is a very specific kind of moore graph. Remember that equation we found for the adjacency
+matrix of the petersen graph. Well for the moore graphs that are known to exist, they satisfy 
+the same "general form" of that equation.
 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
