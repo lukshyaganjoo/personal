@@ -242,7 +242,7 @@ the same "general form" of that equation.
 $$d = 2, 3, 7$$ and possibly $$57$$. 
 
 **proof**
-Assume $$G$$ is a regular Moore graph of girth 5. A reminder that the girth of a graph is 
+Assume $$G$$ is a $$d$$-regular Moore graph of girth 5. A reminder that the girth of a graph is 
 defined to be $$2k + 1$$ where $$k$$ is the diameter of the graph. Solving the above equation 
 for the girth, we get that the diameter of the graph must be 2, i.e. $$k = 2$$. Substituting in 
 this value into the Moore bound, we get that the number of the vertices in the graph is given by 
@@ -265,4 +265,8 @@ d & \forall i = j \\
 \end{cases}
 $$
 
+We therefore have that $$A$$ satisfies the equation 
+$$
+A^{2} + A = (d - 1)I + J
+$$
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
