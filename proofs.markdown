@@ -238,4 +238,31 @@ is a very specific kind of moore graph. Remember that equation we found for the 
 matrix of the petersen graph. Well for the moore graphs that are known to exist, they satisfy 
 the same "general form" of that equation.
 
+**lemma** The only $$d$$-regular Moore graphs of girth 5 and diameter 2 exist for 
+$$d = 2, 3, 7$$ and possibly $$57$$. 
+
+**proof**
+Assume $$G$$ is a regular Moore graph of girth 5. A reminder that the girth of a graph is 
+defined to be $$2k + 1$$ where $$k$$ is the diameter of the graph. Solving the above equation 
+for the girth, we get that the diameter of the graph must be 2, i.e. $$k = 2$$. Substituting in 
+this value into the Moore bound, we get that the number of the vertices in the graph is given by 
+
+$$
+n = 1 + d + d(d- 1) = d^{2} + 1
+$$
+
+As we did for the petersen graph, we consider the square of the adjacency matrix $$A^{2}$$ 
+once again. Notice that the adjacenct vertices don't share any neighbours since if they did, 
+there would be a triangle in $$G$$. Non-adjacent vertices share exactly one neighbor, because the 
+diameter of $$G$$ is 2. Hence, $$A^{2}$$ has $$d$$ on the diagonal, 0 for edges and 1 for non-edges. 
+In other words, we have that 
+
+$$
+(A^{2} + A)_{i, j} = 
+\begin{cases}
+d & \forall i = j \\
+1 & \forall i \neq j
+\end{cases}
+$$
+
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
