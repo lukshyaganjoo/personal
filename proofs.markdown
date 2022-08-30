@@ -269,4 +269,13 @@ We therefore have that $$A$$ satisfies the equation
 $$
 A^{2} + A = (d - 1)I + J
 $$
+
+**lemma** If $$\lambda$$ is an eigenvalue of $$A$$ different from $$d$$, we 
+get from the above equation that $$\lambda^{2} + \lambda - (d - 1) = 0$$
+
+From the quadratic formula we know that for the roots of the equation $$ax^2 + bx + c = 0$$
+are given by $$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$. Plugging in constants from 
+the equation above, we have that 
+
+$$\lambda = \frac{-1 \pm \sqrt{1 + 4(d - 1)}}{2} = - \frac{1}{2} \pm \frac{\sqrt{4d - 3}}{2}$$ 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
