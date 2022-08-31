@@ -382,9 +382,9 @@ graph since it doesn't meet the Moore bound.
 
 For all the other cases, we have that 
 - $$d = 2 \rightarrow C_5$$
-- $$d = 3 \rightarrow \text{Petersen Graph} 
-- $$d = 7 \rightarrow \text{Hoffman-Singleton graph}
-- $$d = 57 \rightarrow \text{Open problem if this graph exists :0}
+- $$d = 3 \rightarrow \text{Petersen Graph}$$
+- $$d = 7 \rightarrow \text{Hoffman-Singleton graph}$$
+- $$d = 57 \rightarrow \text{Open problem if this graph exists :0}$$
 
 There's a lemma floating around the internet somewhere where it states that Moore graphs 
 don't exist for diameters greater than 2 which is kind of insane if you think about it. It's 
