@@ -344,7 +344,7 @@ d - \frac{a + b}{2} + \frac{1}{2} \; (a - b) \sqrt{4d - 3} = 0
 However we know that $$a + b = n - 1$$ and from our previous computation of $$n$$, we get that 
 $$a + b = d^{2}$$. Substituting in, we get that 
 
-$$ \begin{align*}
+$$\begin{align*}
 &\
 d - \frac{d^2}{2} + \frac{1}{2} \; (a - b) \sqrt{4d - 3} = 0 \\
 &\
@@ -368,7 +368,7 @@ d - \frac{d^2}{2} + \frac{s}{2} \; (2a - d^{2}) = 0 \\
 &\
 d = \frac{1}{4} \; (s^{2} + 3) &&\text{Solving for $d$} \\
 &\
-\frac{1}{4} \; (s^{2} + 3) - \frac{1}{2} \; (s^2 + 3)^{2} + \frac{s}{2} \; (2a - \frac{1}{16} \; (s^2 + 3)^{2}) \\
+\frac{1}{4} \; (s^{2} + 3) - \frac{1}{2} \; (s^2 + 3)^{2} + \frac{s}{2} \; (2a - \frac{1}{16} \; (s^2 + 3)^{2}) = 0\\
 &\
 s^{5} + s^{4} + 6s^{3} - 2s^2 + (9 - 32a)s = 0 &&\text{After an ungodly amount of math :(}
 \end{align*}
