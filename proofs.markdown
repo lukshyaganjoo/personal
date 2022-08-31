@@ -52,6 +52,7 @@ y^T A^T x = y^{T} \lambda_1 x &&\text{$A = A^T} \\
 &\
 y^{T} x (\lambda_2 - \lambda_1) = 0
 \end{align*}
+$$
 
 However we already know that $$\lambda_2 \neq \lambda_2$$. Therefore 
 $$\lambda_2 - \lambda_1 \neq 0$$, and it must be the case that $$y^{T}x = 0$$. 
