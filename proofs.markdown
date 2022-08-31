@@ -3,8 +3,8 @@ layout: page
 title: proofs
 ---
 
-[so i gave a theory talk](#so-i-gave-a-theory-talk)  
-[cauchy schwarz and beyond](#cauchy-schwarz-and-beyond)
+- [so i gave a theory talk](#so-i-gave-a-theory-talk)  
+- [cauchy schwarz and beyond](#cauchy-schwarz-and-beyond)
 
 # so i gave a theory talk
 
@@ -324,7 +324,8 @@ A^{2}x + Ax = (d - 1)x = 0 \\
 \lambda^2 + \lambda - (d - 1) = 0 
 \end{align*}$$
 
-Therefore, we can use the quadratic formula to ascertain that the roots of the equation $$ax^2 + bx + c = 0$$
+**obtaining the parameters for which moore graphs exist**  
+We can use the quadratic formula to ascertain that the roots of the equation $$ax^2 + bx + c = 0$$
 are given by $$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$. Plugging in constants from the equation above, we have 
 that $$\lambda = \frac{-1 \pm \sqrt{1 + 4(d - 1)}}{2} = - \frac{1}{2} \pm \frac{\sqrt{4d - 3}}{2}$$. 
 
