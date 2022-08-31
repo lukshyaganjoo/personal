@@ -24,7 +24,7 @@ In this proof, $$J_{n}$$ refers to the all ones matrix with dimension/size $$n *
 
 The row space of a matrix $$A$$ is defined as follows, $$\text{Row}(A) = \{y^T A : y \in \mathbb{R}^{n}\}$$
 
-**lemma** Trace($$A$$) = $$\sum_{x \in E_{x}(A)} \lambda_{x}$$
+**lemma** Trace($$A$$) = $$\sum_{x \in E_{x}(A)}^{} \lambda_{x}$$
 
 **lemma** For a symmetric matrix $$A$$, eigenvectors corresponding to *distinct*
 eigenvalues are orthogonal 
