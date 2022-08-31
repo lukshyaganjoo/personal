@@ -273,9 +273,24 @@ $$
 **lemma** If $$\lambda$$ is an eigenvalue of $$A$$ different from $$d$$, we 
 get from the above equation that $$\lambda^{2} + \lambda - (d - 1) = 0$$
 
+**proof**
+I suppose I should have talked about this earlier, but the all ones matrix $$J_d$$
+has eigenvalues 0 and $$d$$, where the eigenvalue $$d$$ corresponds to an
+eigenspace with the all ones vector or $${\bf 1}$$.
+
+Let $$x$$ be the eigenvector corresponding to eigenvalue 0. Multiplying both sides of 
+the equation we have that 
+
+$$\begin{align*}
+&\
+A^{2}x + Ax = (d - 1)x = 0 \\
+&\
+\lambda^{2}x + \lambda x = (d - 1)x \\ 
+&\
+\lambda^2 + \lambda - (d - 1) = 0 
+\end{align*}$$
+
 From the quadratic formula we know that for the roots of the equation $$ax^2 + bx + c = 0$$
 are given by $$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$. Plugging in constants from 
-the equation above, we have that 
-
-$$\lambda = \frac{-1 \pm \sqrt{1 + 4(d - 1)}}{2} = - \frac{1}{2} \pm \frac{\sqrt{4d - 3}}{2}$$ 
+the equation above, we have that $$\lambda = \frac{-1 \pm \sqrt{1 + 4(d - 1)}}{2} = - \frac{1}{2} \pm \frac{\sqrt{4d - 3}}{2}$$ 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
