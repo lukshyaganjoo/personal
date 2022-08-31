@@ -3,7 +3,7 @@ layout: page
 title: proofs
 ---
 
-[so i gave a theory talk](#so-i-gave-a-theory-talk)
+[so i gave a theory talk](#so-i-gave-a-theory-talk)  
 [cauchy schwarz and beyond](#cauchy-schwarz-and-beyond)
 
 # so i gave a theory talk
@@ -333,7 +333,7 @@ has multiplicity $$b$$. Using the fact that the trace of a matrix $$A$$ is the s
 
 $$\begin{align*}
 &\
-d(1) + \frac{-1}{2} + (\frac{\sqrt{4d - 3}}{2})(a) + (\frac{-1}{2} - \frac{\sqrt{4d - 3}}{2})(b) = 0 \\
+d(1) + (\frac{-1}{2} + \frac{\sqrt{4d - 3}}{2})(a) + (\frac{-1}{2} - \frac{\sqrt{4d - 3}}{2})(b) = 0 \\
 &\
 d - \frac{a}{2} + \frac{a\sqrt{4d - 3}}{2} - \frac{b}{2} - \frac{b\sqrt{4d - 3}}{2} = 0 \\
 &\
@@ -341,7 +341,7 @@ d - \frac{a + b}{2} + \frac{1}{2} \; (a - b) \sqrt{4d - 3} = 0
 \end{align*}$$
 
 However we know that $$a + b = n - 1$$ and from our previous computation of $$n$$, we get that 
-$$a + b = d^{2}$$. Substituting in, we get that 
+$$a + b = d^{2}$$. Substituting in, we get that  
 $$
 \begin{align*}
 &\
@@ -354,6 +354,41 @@ d - \frac{d^2}{2} + \frac{1}{2} \; (a - b) \sqrt{4d - 3} = 0 \\
 $$
 
 This statement is only true if $$a = b$$ and $$d = 2$$ (the trivial case of both sides 
-being 0) or if $$4d - 3$$ is a perfect square. 
+being 0) or else $$4d - 3$$ is a square. 
+
+Let $$4d - 3 = s^{2}$$. Therefore, we have that  
+
+$$\begin{align*}
+&\
+d - \frac{d^2}{2} + \frac{s}{2} \; (a - b) = 0 \\
+&\
+d - \frac{d^2}{2} + \frac{s}{2} \; (2a - d^{2}) = 0 \\
+&\
+4d - 3 = s^{2} &&\text{Change of variables we make} \\
+&\
+d = \frac{1}{4} \; (s^{2} + 3) &&\text{Solving for $d$} \\
+&\
+\frac{1}{4} \; (s^{2} + 3) - \frac{1}{2} \; (s^2 + 3)^{2} + \frac{s}{2} \; (2a - \frac{1}{16} \; (s^2 + 3)^{2}) \\
+&\
+s^{5} + s^{4} + 6s^{3} - 2s^2 + (9 - 32a)s = 0 &&\text{After an ungodly amount of math :(}
+\end{align*}
+$$
+
+To satisfy the above equation, we have that $$s$$ must divide 15, i.e. $$s \in 
+\{1, 3, 5, 15 \}$$. Since $$s^2 = 4d - 3$$, we have that $$d \in \{1, 3, 7, 57 \}$$.  
+
+When $$d = 1$$, we get the complete graph on 2 vertices, i.e. $$K_2$$ which is not a Moore 
+graph since it doesn't meet the Moore bound. 
+
+For all the other cases, we have that 
+- $$d = 2 \rightarrow C_5$$
+- $$d = 3 \rightarrow \text{Petersen Graph} 
+- $$d = 7 \rightarrow \text{Hoffman-Singleton graph}
+- $$d = 57 \rightarrow \text{Open problem if this graph exists :0}
+
+There's a lemma floating around the internet somewhere where it states that Moore graphs 
+don't exist for diameters greater than 2 which is kind of insane if you think about it. It's 
+also the reason their existence is so fascinating and why we've listed most of if not all the 
+Moore graphs there can be.
 # cauchy schwarz and beyond
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
