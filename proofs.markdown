@@ -53,7 +53,7 @@ y^T A^T x = y^{T} \lambda_1 x &&\text{$A = A^T$} \\
 y^{T} x (\lambda_2 - \lambda_1) = 0
 \end{align*} $$
 
-However, we already know that $$\lambda_2 \neq \lambda_2$$. Therefore 
+However, we already know that $$\lambda_2 \neq \lambda_1$$. Therefore 
 $$\lambda_2 - \lambda_1 \neq 0$$, and it must be the case that $$y^{T}x = 0$$. 
 
 Therefore $$x$$ and $$y$$ are orthogonal.
@@ -370,7 +370,7 @@ d = \frac{1}{4} \; (s^{2} + 3) &&\text{Solving for $d$} \\
 &\
 \frac{1}{4} \; (s^{2} + 3) - \frac{1}{2} \; (s^2 + 3)^{2} + \frac{s}{2} \; (2a - \frac{1}{16} \; (s^2 + 3)^{2}) = 0\\
 &\
-s^{5} + s^{4} + 6s^{3} - 2s^2 + (9 - 32a)s = 0 &&\text{After an ungodly amount of math :(}
+s^{5} + s^{4} + 6s^{3} - 2s^2 + (9 - 32a)s - 15 = 0 &&\text{After an ungodly amount of math :(}
 \end{align*}
 $$
 
