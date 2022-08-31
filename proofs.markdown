@@ -33,8 +33,7 @@ eigenvalues are orthogonal
 Let $$x$$ and $$y$$ be eigenvectors of the matrix $$A$$ corresponding to eigenvalues 
 $$\lambda_1$$ and $$\lambda_2$$ respectively. Therefore we have that 
 
-$$
-\begin{align*}
+$$ \begin{align*}
 &\
 Ax = \lambda_1 x \\
 &\
@@ -42,7 +41,7 @@ Ay = \lambda_2 y \\
 &\
 y^{T} Ax = y^{T} \lambda_1 x &&\text{Multiplying the first equation with $y^T$} \\
 &\
-y^T A^T x = y^{T} \lambda_1 x &&\text{$A = A^T} \\
+y^T A^T x = y^{T} \lambda_1 x &&\text{$A = A^T$} \\
 &\
 (Ay)^{T} x = \lambda_1 y^{T} x \\
 &\
@@ -51,14 +50,12 @@ y^T A^T x = y^{T} \lambda_1 x &&\text{$A = A^T} \\
 \lambda_2 y^{T} x = \lambda_1 y^{T} x \\ 
 &\
 y^{T} x (\lambda_2 - \lambda_1) = 0
-\end{align*}
-$$
+\end{align*} $$
 
-However we already know that $$\lambda_2 \neq \lambda_2$$. Therefore 
+However, we already know that $$\lambda_2 \neq \lambda_2$$. Therefore 
 $$\lambda_2 - \lambda_1 \neq 0$$, and it must be the case that $$y^{T}x = 0$$. 
 
-Therefore $$x$$ and $$y$$ are orthogonal. 
-$$  
+Therefore $$x$$ and $$y$$ are orthogonal.
 
 **adjacency matrices:** 
 
