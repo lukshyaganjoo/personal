@@ -24,6 +24,41 @@ In this proof, $$J_{n}$$ refers to the all ones matrix with dimension/size $$n *
 
 The row space of a matrix $$A$$ is defined as follows, $$\text{Row}(A) = \{y^T A : y \in \mathbb{R}^{n}\}$$
 
+**lemma** Trace($$A$$) = $$\sum_{x \in E_{x}(A)} \lambda_{x}$$
+
+**lemma** For a symmetric matrix $$A$$, eigenvectors corresponding to *distinct*
+eigenvalues are orthogonal 
+
+**proof**  
+Let $$x$$ and $$y$$ be eigenvectors of the matrix $$A$$ corresponding to eigenvalues 
+$$\lambda_1$$ and $$\lambda_2$$ respectively. Therefore we have that 
+
+$$
+\begin{align*}
+&\
+Ax = \lambda_1 x \\
+&\
+Ay = \lambda_2 y \\
+&\
+y^{T} Ax = y^{T} \lambda_1 x &&\text{Multiplying the first equation with $y^T$} \\
+&\
+y^T A^T x = y^{T} \lambda_1 x &&\text{$A = A^T} \\
+&\
+(Ay)^{T} x = \lambda_1 y^{T} x \\
+&\
+(\lambda_2 y)^T x = \lambda_1 y^{T} x \\ 
+&\
+\lambda_2 y^{T} x = \lambda_1 y^{T} x \\ 
+&\
+y^{T} x (\lambda_2 - \lambda_1) = 0
+\end{align*}
+
+However we already know that $$\lambda_2 \neq \lambda_2$$. Therefore 
+$$\lambda_2 - \lambda_1 \neq 0$$, and it must be the case that $$y^{T}x = 0$$. 
+
+Therefore $$x$$ and $$y$$ are orthogonal. 
+$$  
+
 **adjacency matrices:** 
 
 We define the adjacency matrix of a graph $$G = (V, E)$$ as the following,
@@ -290,7 +325,7 @@ A^{2}x + Ax = (d - 1)x = 0 \\
 \lambda^2 + \lambda - (d - 1) = 0 
 \end{align*}$$
 
-From the quadratic formula we know that for the roots of the equation $$ax^2 + bx + c = 0$$
-are given by $$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$. Plugging in constants from 
-the equation above, we have that $$\lambda = \frac{-1 \pm \sqrt{1 + 4(d - 1)}}{2} = - \frac{1}{2} \pm \frac{\sqrt{4d - 3}}{2}$$ 
+Therefore, we can use the quadratic formula to ascertain that the roots of the equation $$ax^2 + bx + c = 0$$
+are given by $$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$. Plugging in constants from the equation above, we have 
+that $$\lambda = \frac{-1 \pm \sqrt{1 + 4(d - 1)}}{2} = - \frac{1}{2} \pm \frac{\sqrt{4d - 3}}{2}$$. 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
