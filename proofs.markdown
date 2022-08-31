@@ -342,17 +342,16 @@ d - \frac{a + b}{2} + \frac{1}{2} \; (a - b) \sqrt{4d - 3} = 0
 \end{align*}$$
 
 However we know that $$a + b = n - 1$$ and from our previous computation of $$n$$, we get that 
-$$a + b = d^{2}$$. Substituting in, we get that  
-$$
-\begin{align*}
+$$a + b = d^{2}$$. Substituting in, we get that 
+
+$$ \begin{align*}
 &\
 d - \frac{d^2}{2} + \frac{1}{2} \; (a - b) \sqrt{4d - 3} = 0 \\
 &\
 \frac{2d - d^2}{2} + \frac{1}{2} \; (a - b) \sqrt{4d - 3} = 0 \\
 &\
 (a - b) \sqrt{4d - 3} = d^{2} - 2d 
-\end{align*}
-$$
+\end{align*} $$
 
 This statement is only true if $$a = b$$ and $$d = 2$$ (the trivial case of both sides 
 being 0) or else $$4d - 3$$ is a square. 
