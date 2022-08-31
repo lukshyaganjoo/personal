@@ -4,6 +4,7 @@ title: proofs
 ---
 
 [so i gave a theory talk](#so-i-gave-a-theory-talk)
+[cauchy schwarz and beyond](#cauchy-schwarz-and-beyond)
 
 # so i gave a theory talk
 
@@ -326,4 +327,33 @@ A^{2}x + Ax = (d - 1)x = 0 \\
 Therefore, we can use the quadratic formula to ascertain that the roots of the equation $$ax^2 + bx + c = 0$$
 are given by $$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$. Plugging in constants from the equation above, we have 
 that $$\lambda = \frac{-1 \pm \sqrt{1 + 4(d - 1)}}{2} = - \frac{1}{2} \pm \frac{\sqrt{4d - 3}}{2}$$. 
+
+Assume that $$\frac{-1}{2} + \frac{\sqrt{4d - 3}}{2}$$ has multiplicity $$a$$ and $$\frac{-1}{2} - \frac{\sqrt{4d - 3}}{2}$$ 
+has multiplicity $$b$$. Using the fact that the trace of a matrix $$A$$ is the sum of its diagonal entries, we can ascertain that 
+
+$$\begin{align*}
+&\
+d(1) + \frac{-1}{2} + (\frac{\sqrt{4d - 3}}{2})(a) + (\frac{-1}{2} - \frac{\sqrt{4d - 3}}{2})(b) = 0 \\
+&\
+d - \frac{a}{2} + \frac{a\sqrt{4d - 3}}{2} - \frac{b}{2} - \frac{b\sqrt{4d - 3}}{2} = 0 \\
+&\
+d - \frac{a + b}{2} + \frac{1}{2} \; (a - b) \sqrt{4d - 3} = 0
+\end{align*}$$
+
+However we know that $$a + b = n - 1$$ and from our previous computation of $$n$$, we get that 
+$$a + b = d^{2}$$. Substituting in, we get that 
+$$
+\begin{align*}
+&\
+d - \frac{d^2}{2} + \frac{1}{2} \; (a - b) \sqrt{4d - 3} = 0 \\
+&\
+\frac{2d - d^2}{2} + \frac{1}{2} \; (a - b) \sqrt{4d - 3} = 0 \\
+&\
+(a - b) \sqrt{4d - 3} = d^{2} - 2d 
+\end{align*}
+$$
+
+This statement is only true if $$a = b$$ and $$d = 2$$ (the trivial case of both sides 
+being 0) or if $$4d - 3$$ is a perfect square. 
+# cauchy schwarz and beyond
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
