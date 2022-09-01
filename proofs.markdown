@@ -391,4 +391,21 @@ don't exist for diameters greater than 2 which is kind of insane if you think ab
 also the reason their existence is so fascinating and why we've listed most of if not all the 
 Moore graphs there can be.
 # cauchy schwarz and beyond
+
+The object of today's study is the cauchy schwarz inequality specifically the version involving dot
+products. For those unaware, the cauchy schwarz is probably one of the most broken 
+lemmas in mathematics. So ubiquitious is this theorem, that it is given different names depending 
+on the form of the inequality we use and for what purpose specifically we're using it. 
+
+Let's start from the beginning. We will state some different forms of the cauchy schwarz inequality, 
+prove the form involving dot products and cover what I think is a really cool problem that uses the inequality. 
+
+For the different forms of the cauchy schwarz inequality, we have
+- Probability Theory $$| \mathbb{E}(XY) |^{2} \leq \mathbb{E}(X^{2}) \mathbb{E}(Y^{2})$$
+- $$R^2$$ dot product $$ |{\bf a}. {\bf b} |^{2} \leq ({\bf a}.{\bf a})({\bf b}.{\bf b})$$
+- $$R^{n} \; - \; n$$ - dimensional Euclidean Space: $$(\sum_{i = 1}^{n} u_{i} v_{i})^{2} \leq
+  (\sum_{i = 1}^{n} u_i)^{2} (\sum_{i = 1}^{n} v_i)^{2}$$ 
+
+
+
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
