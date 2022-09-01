@@ -402,7 +402,7 @@ prove the form involving dot products and cover what I think is a really cool pr
 
 For the different forms of the cauchy schwarz inequality, we have
 - Probability Theory: $$\lvert \mathbb{E}(XY) \rvert^{2} \leq \mathbb{E}(X^{2}) \mathbb{E}(Y^{2})$$
-- $$R^2$$-dot product: $$ \lvert {\bf a}. {\bf b} \rvert^{2} \leq ({\bf a}.{\bf a})({\bf b}.{\bf b})$$
+- $$R^2$$-dot product: $$ \lvert {\bf a}. {\bf b} \rvert^{2} \leq ({\bf a}.{\bf a}) \; ({\bf b}.{\bf b})$$
 - $$R^{n} - \; n$$ - dimensional Euclidean Space: $$(\sum_{i = 1}^{n} u_{i} v_{i})^{2} \leq
   (\sum_{i = 1}^{n} u_i)^{2} (\sum_{i = 1}^{n} v_i)^{2}$$ 
 
