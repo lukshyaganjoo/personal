@@ -401,11 +401,16 @@ Let's start from the beginning. We will state some different forms of the cauchy
 prove the form involving dot products and cover what I think is a really cool problem that uses the inequality. 
 
 For the different forms of the cauchy schwarz inequality, we have
-- Probability Theory $$\lvert \mathbb{E}(XY) \rvert^{2} \leq \mathbb{E}(X^{2}) \mathbb{E}(Y^{2})$$
-- $$R^2$$ dot product $$ \lvert {\bf a}. {\bf b} \rvert^{2} \leq ({\bf a}.{\bf a})({\bf b}.{\bf b})$$
-- $$R^{n} \; - \; n$$ - dimensional Euclidean Space: $$(\sum_{i = 1}^{n} u_{i} v_{i})^{2} \leq
+- Probability Theory: $$\lvert \mathbb{E}(XY) \rvert^{2} \leq \mathbb{E}(X^{2}) \mathbb{E}(Y^{2})$$
+- $$R^2$$-dot product: $$ \lvert {\bf a}. {\bf b} \rvert^{2} \leq ({\bf a}.{\bf a})({\bf b}.{\bf b})$$
+- $$R^{n} - \; n$$ - dimensional Euclidean Space: $$(\sum_{i = 1}^{n} u_{i} v_{i})^{2} \leq
   (\sum_{i = 1}^{n} u_i)^{2} (\sum_{i = 1}^{n} v_i)^{2}$$ 
 
+**lemma** $$ \lvert {\bf a}. {\bf b} \rvert^{2} \leq ({\bf a}.{\bf a})({\bf b}.{\bf b})$$  
+**proof** 
+
+Let $$a$$ and $$b$$ be vectors living in $$R^{n}$$ such that $$a = <a_1, a_2, ..., a_n>$$ and 
+$$b = <b_1, b_2, ..., b_n>$$
 
 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
