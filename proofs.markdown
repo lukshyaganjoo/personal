@@ -411,9 +411,10 @@ For the different forms of the cauchy schwarz inequality, we have
 
 Let $$a$$ and $$b$$ be vectors living in $$R^{n}$$ such that $$a = \langle a_1, a_2, a_3, \dots, a_n \rangle$$ and 
 $$b = \langle b_1, b_2, b_3, \dots, b_n \rangle$$. We first simplify both sides of the inequality, and 
-proceed from there. 
+proceed from there.  
 
 We have that,
+
 $$
 \begin{align*}
 &\
