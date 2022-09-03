@@ -409,8 +409,58 @@ For the different forms of the cauchy schwarz inequality, we have
 **lemma** $$ \lvert {\bf a}. {\bf b} \rvert^{2} \leq ({\bf a}.{\bf a})({\bf b}.{\bf b})$$  
 **proof** 
 
-Let $$a$$ and $$b$$ be vectors living in $$R^{n}$$ such that $$a = <a_1, a_2, ..., a_n>$$ and 
-$$b = <b_1, b_2, ..., b_n>$$
+Let $$a$$ and $$b$$ be vectors living in $$R^{n}$$ such that $$a = \begin{bmatrix} a_1 && a_2 && a_3 && \dots && a_n \end{bmatrix}^{T}$$ and 
+$$b = \begin{bmatrix} b_1 && b_2 && b_3 && \dots && b_n \end{bmatrix}^{T}$$. We first simplify both sides of the inequality, and 
+proceed from there. 
 
+We have that,
+$$
+\begin{align*}
+&\
+\lvert {\bf a}. {\bf b} \rvert^{2} = ({\bf a}. {\bf b}) ({\bf a}. {\bf b}) \\
+&\
+\lvert {\bf a}. {\bf b} \rvert^{2} = (\begin{bmatrix} a_1 && a_2 && a_3 && \dots && a_n \end{bmatrix}^{T} \begin{bmatrix} b_1 && b_2 && b_3 && \dots && b_n \end{bmatrix})
+\begin{bmatrix} a_1 && a_2 && a_3 && \dots && a_n \end{bmatrix}^{T} \begin{bmatrix} b_1 && b_2 && b_3 && \dots && b_n \end{bmatrix} \\
+&\
+\lvert {\bf a}. {\bf b} \rvert^{2} = (a_1 b_1 + a_2 b_2 + \dots + a_n b_n) (a_1 b_1 + a_2 b_2 + \dots + a_n b_n) \\
+&\
+\lvert {\bf a}. {\bf b} \rvert^{2} = (a_1 b_1 + a_2 b_2 + \dots + a_n b_n)^{2} \\
+&\
+({\bf a}.{\bf a}) = \begin{bmatrix} a_1 && a_2 && a_3 && \dots && a_n \end{bmatrix}^{T} \begin{bmatrix} a_1 && a_2 && a_3 && \dots && a_n \end{bmatrix} \\
+&\
+({\bf a}.{\bf a}) = a_{1}^{2} + a_{2}^{2} + \dots a_{n}^{2} \\
+&\
+({\bf b}.{\bf b}) = \begin{bmatrix} b_1 && b_2 && b_3 && \dots && b_n \end{bmatrix}^{T} \begin{bmatrix} b_1 && b_2 && b_3 && \dots && b_n \end{bmatrix} \\
+&\
+({\bf b}.{\bf b}) = b_{1}^{2} + b_{2}^{2} + \dots + b_{n}^{2} \\
+\end{align*}
+$$
 
+For the sake of notational convenience, let us state that 
+- $$D = \sum_{i = 1}^{n} a_i b_i$$
+- $$A = \sum_{i = 1}^{n} a_{i}^{2}$$
+- $$B = \sum_{i = 1}^{n} b_{i}^{2}$$
+
+So we are therefore tasked with proving the following inequality, $$D^{2} \leq AB$$
+
+Rearranging, we have that 
+$$
+\begin{align*}
+&\
+D^{2} \leq AB \\
+&\
+D^{2} - AB \leq 0 \\
+&\
+4D^{2} - 4AB \leq 0 &&\text{Multiplying both sides by 4} \\
+&\
+(2D)^{2} - 4AB \leq 0
+\end{align*}
+$$
+
+One of the coolest thing about math to me is how you can transform certain kinds of problems 
+into problems that might be easier to solve or perhaps represent. This is one of those moments. 
+This might look familiar to some people already but given a quadratic equation $$ax^{2} + bx + c = 0$$, 
+the discrimanant $$D_{Q}$$ is given by $$b^{2} - 4ac$$. The entire reason I changed the form of the inequality
+we had to prove was so that it could better mimic this form of the discriminant for something as widely 
+ubiquitous as the quadratic formula. 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
