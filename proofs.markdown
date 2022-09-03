@@ -410,7 +410,7 @@ For the different forms of the cauchy schwarz inequality, we have
 **proof** 
 
 Let $$a$$ and $$b$$ be vectors living in $$R^{n}$$ such that $$a = \langle a_1, a_2, a_3, \dots, a_n \rangle$$ and 
-$$b = \langle b_1, b_2, b_3, \dots, b_n \rangle^{T}$$. We first simplify both sides of the inequality, and 
+$$b = \langle b_1, b_2, b_3, \dots, b_n \rangle$$. We first simplify both sides of the inequality, and 
 proceed from there. 
 
 We have that,
@@ -419,20 +419,25 @@ $$
 &\
 \lvert {\bf a}. {\bf b} \rvert^{2} = ({\bf a}. {\bf b}) ({\bf a}. {\bf b}) \\
 &\
-\lvert {\bf a}. {\bf b} \rvert^{2} = (\begin{bmatrix} a_1 && a_2 && a_3 && \dots && a_n \end{bmatrix}^{T} \begin{bmatrix} b_1 && b_2 && b_3 && \dots && b_n \end{bmatrix})
-\begin{bmatrix} a_1 && a_2 && a_3 && \dots && a_n \end{bmatrix}^{T} \begin{bmatrix} b_1 && b_2 && b_3 && \dots && b_n \end{bmatrix} \\
+\lvert {\bf a}. {\bf b} \rvert^{2} = \langle a_1, a_2, a_3, \dots, a_n \rangle \langle b_1, b_2, b_3, \dots, b_n \rangle \\
 &\
 \lvert {\bf a}. {\bf b} \rvert^{2} = (a_1 b_1 + a_2 b_2 + \dots + a_n b_n) (a_1 b_1 + a_2 b_2 + \dots + a_n b_n) \\
 &\
 \lvert {\bf a}. {\bf b} \rvert^{2} = (a_1 b_1 + a_2 b_2 + \dots + a_n b_n)^{2} \\
 &\
-({\bf a}.{\bf a}) = \begin{bmatrix} a_1 && a_2 && a_3 && \dots && a_n \end{bmatrix}^{T} \begin{bmatrix} a_1 && a_2 && a_3 && \dots && a_n \end{bmatrix} \\
+\lvert {\bf a}. {\bf b} \rvert^{2} = (\sum_{i = 1}^{n} a_i b_i)^{2} \\
+&\
+({\bf a}.{\bf a}) = \langle a_1, a_2, a_3, \dots, a_n \rangle \langle a_1, a_2, a_3, \dots, a_n \rangle \\
 &\
 ({\bf a}.{\bf a}) = a_{1}^{2} + a_{2}^{2} + \dots a_{n}^{2} \\
 &\
-({\bf b}.{\bf b}) = \begin{bmatrix} b_1 && b_2 && b_3 && \dots && b_n \end{bmatrix}^{T} \begin{bmatrix} b_1 && b_2 && b_3 && \dots && b_n \end{bmatrix} \\
+({\bf a}.{\bf a}) = \sum_{i = 1}^{n} a_{i}^{2}
+&\
+({\bf b}.{\bf b}) = \langle b_1, b_2, b_3, \dots, b_n \rangle \langle b_1, b_2, b_3, \dots, b_n \rangle \\
 &\
 ({\bf b}.{\bf b}) = b_{1}^{2} + b_{2}^{2} + \dots + b_{n}^{2} \\
+&\
+({\bf b}.{\bf b}) = \sum_{i = 1}^{n} b_{i}^{2}
 \end{align*}
 $$
 
