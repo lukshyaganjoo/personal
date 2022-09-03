@@ -409,8 +409,8 @@ For the different forms of the cauchy schwarz inequality, we have
 **lemma** $$ \lvert {\bf a}. {\bf b} \rvert^{2} \leq ({\bf a}.{\bf a})({\bf b}.{\bf b})$$  
 **proof** 
 
-Let $$a$$ and $$b$$ be vectors living in $$R^{n}$$ such that $$a = \begin{bmatrix} a_1 && a_2 && a_3 && \dots && a_n \end{bmatrix}^{T}$$ and 
-$$b = \begin{bmatrix} b_1 && b_2 && b_3 && \dots && b_n \end{bmatrix}^{T}$$. We first simplify both sides of the inequality, and 
+Let $$a$$ and $$b$$ be vectors living in $$R^{n}$$ such that $$a = \langle a_1, a_2, a_3, \dots, a_n \rangle$$ and 
+$$b = \langle b_1, b_2, b_3, \dots, b_n \rangle^{T}$$. We first simplify both sides of the inequality, and 
 proceed from there. 
 
 We have that,
