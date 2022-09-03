@@ -431,7 +431,7 @@ $$
 &\
 ({\bf a}.{\bf a}) = a_{1}^{2} + a_{2}^{2} + \dots a_{n}^{2} \\
 &\
-({\bf a}.{\bf a}) = \sum_{i = 1}^{n} a_{i}^{2}
+({\bf a}.{\bf a}) = \sum_{i = 1}^{n} a_{i}^{2} \\
 &\
 ({\bf b}.{\bf b}) = \langle b_1, b_2, b_3, \dots, b_n \rangle \langle b_1, b_2, b_3, \dots, b_n \rangle \\
 &\
@@ -446,9 +446,10 @@ For the sake of notational convenience, let us state that
 - $$A = \sum_{i = 1}^{n} a_{i}^{2}$$
 - $$B = \sum_{i = 1}^{n} b_{i}^{2}$$
 
-So we are therefore tasked with proving the following inequality, $$D^{2} \leq AB$$
+So we are therefore tasked with proving the following inequality, $$D^{2} \leq AB$$  
 
 Rearranging, we have that 
+
 $$
 \begin{align*}
 &\
