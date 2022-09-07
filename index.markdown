@@ -1,3 +1,4 @@
+import Typed from 'typed.js'
 ---
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
@@ -8,6 +9,15 @@ title: about
 <p align="center">
   <img height = 200 width = 400 src="images/lukshya.jpeg">
 </p> 
+
+// Can also be included with a regular script tag
+
+var options = {
+strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
+typeSpeed: 40
+};
+
+var typed = new Typed('.element', options);
 Hello there! My name is Lukshya Ganjoo and 
 I'm a sophomore at the University of 
 Washington, Seattle studying computer science 
