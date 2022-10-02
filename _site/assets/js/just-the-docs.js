@@ -10,12 +10,12 @@ jtd.removeEvent = function(el, type, handler) {
 }
 jtd.onReady = function(ready) {
   // in case the document is already rendered
-  if (document.readyState!='loading') ready();
+  if (document.readyState!=='loading') ready();
   // modern browsers
   else if (document.addEventListener) document.addEventListener('DOMContentLoaded', ready);
   // IE <= 8
   else document.attachEvent('onreadystatechange', function(){
-      if (document.readyState=='complete') ready();
+      if (document.readyState==='complete') ready();
   });
 }
 
