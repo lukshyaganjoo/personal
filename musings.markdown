@@ -8,7 +8,7 @@ The stuff I ramble about when I'm not thinking about math and cs
 
 - [my time at college](#my-time-at-college)
 - [fever dream](#fever-dream)
-- [a first hand experience with writers block](#a-first-hand-experience-with-writers-block)
+- [a first-hand experience with writers block](#a-first-hand-experience-with-writers-block)
 - [my take on much of modern philosophy](#my-take-on-much-of-modern-philosophy)
 - [archaic lanterns](#archaic-lanterns)
 - [answers?](#answers)
