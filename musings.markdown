@@ -6,7 +6,6 @@ permalink: /my musings/
 
 The stuff I ramble about when I'm not thinking about math and cs
 
-- [shadows](#shadows)
 - [my time at college](#my-time-at-college)
 - [fever dream](#fever-dream)
 - [a first hand experience with writers block](#a-first-hand-experience-with-writers-block)
@@ -15,34 +14,6 @@ The stuff I ramble about when I'm not thinking about math and cs
 - [answers?](#answers)
 - [how do humans work?](#how-do-humans-work)
 - [ptsd is wild, man](#ptsd-is-wild-man)
-
-
-# shadows
-A crippling fear of what lies beyond  
-Prevalence in terror and knowledge  
-Yet, a complete lack of direction on the subsequent step  
-Unexpected, yet moulded in a surprising rigidity
-
-Several, fall victim rather recurringly  
-I must speak my mind before it claims my soul  
-A herculean task, yet my duty as a human being  
-All attempts, bound to result in failure  
-Redefining “helplessness” to something unknown  
-
-A bead of sweat blurs the nib  
-An unusual shine to scrawled words on the paper  
-Words rendered illegible, yet a resounding growl  
-The cursive, stops mid-way, akin to a paralysed corpse  
-
-Strange, perhaps due to newfangled disposition  
-Or just a naivety to unconnected circumstances  
-I welcome the unpredictable, a strange balm  
-Yet, there's something unsettling  
-Despite a near-needled narcissism  
-I must question this dissonance in opinion  
-
-Silly me, I seem to have dropped something  
-Perchance, a mere triviality; just the ramblings of a madman  
 
 # my time at college
 
@@ -63,6 +34,33 @@ If there's anything this place has taught me, it's that I'm always confused, lit
 That's all I have for now, I think. This was a somewhat unfiltered version of my thoughts, and did not go through the level of semantic correction I normally indulge in with any given blog post of mine. I think there's an admirable kind of power to that though, something that dare I say could be considered a breath of fresh air. For now, farewell and if time is any indicator, I will be back with more things to talk about. 
 
 ~Lukshya
+
+# shadows
+A crippling fear of what lies beyond  
+Prevalence in terror and knowledge  
+Yet, a complete lack of direction on the subsequent step  
+Unexpected, yet moulded in a surprising rigidity
+
+Several, fall victim rather recurringly  
+I must speak my mind before it claims my soul  
+A herculean task, yet my duty as a human being  
+All attempts, bound to result in failure  
+Redefining “helplessness” to something unknown
+
+A bead of sweat blurs the nib  
+An unusual shine to scrawled words on the paper  
+Words rendered illegible, yet a resounding growl  
+The cursive, stops mid-way, akin to a paralysed corpse
+
+Strange, perhaps due to newfangled disposition  
+Or just a naivety to unconnected circumstances  
+I welcome the unpredictable, a strange balm  
+Yet, there's something unsettling  
+Despite a near-needled narcissism  
+I must question this dissonance in opinion
+
+Silly me, I seem to have dropped something  
+Perchance, a mere triviality; just the ramblings of a madman
 # fever dream
 
 Dealing in delirium is toying with death  
