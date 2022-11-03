@@ -492,9 +492,12 @@ $$
 \begin{align*}
 &\
 \mathbb{E}[Y]^2 \mathbb{P}(Y \neq 0) = \sum_{y \neq 0} \mathbb{P}(Y = y)\; \sum_{y \neq 0} y^{2} \mathbb{P}(Y = y) &&\text{Using the definition of expectation and LOTUS}
-\end{align*}
-From the above expression, let $a_i = \sqrt{\mathbb{P}(Y = y)}$ and $b_i = y\sqrt{\mathbb{P}(Y = y)}$. We also know from the Cauchy Schwarz inequality above that $\sum_{i = 1}^{n} a_i b_i \leq \sqrt{\sum_{i = 1}^{n} a_{i}^{2}} \sqrt{\sum_{i = 1}^{n} b_{i}^{2}}$. Squaring both sides, we have that another form of this inequality can be written as
-$(\sum_{i = 1}^{n} a_i b_i)^{2} \leq \sum_{i = 1}^{n} a_{i}^{2}\sum_{i = 1}^{n} b_{i}^{2}$. We now apply the Cauchy Schwarz inequality to get that
+\end{align*}$$
+
+From the above expression, let $$a_i = \sqrt{\mathbb{P}(Y = y)}$$ and $$b_i = y\sqrt{\mathbb{P}(Y = y)}$$. We also know from the Cauchy Schwarz inequality above that $\sum_{i = 1}^{n} a_i b_i \leq \sqrt{\sum_{i = 1}^{n} a_{i}^{2}} \sqrt{\sum_{i = 1}^{n} b_{i}^{2}}$. Squaring both sides, we have that another form of this inequality can be written as
+$$(\sum_{i = 1}^{n} a_i b_i)^{2} \leq \sum_{i = 1}^{n} a_{i}^{2}\sum_{i = 1}^{n} b_{i}^{2}$$. We now apply the Cauchy Schwarz inequality to get that
+
+$$
 \begin{align*}
 &\
 \sum_{y \neq 0} \mathbb{P}(Y = y)\; \sum_{y \neq 0} y^{2} \mathbb{P}(Y = y) \geq \sum_{y \neq 0} y \sqrt{\mathbb{P}(Y = y)} \sqrt{\mathbb{P}(Y = y)} \\
@@ -507,5 +510,6 @@ $(\sum_{i = 1}^{n} a_i b_i)^{2} \leq \sum_{i = 1}^{n} a_{i}^{2}\sum_{i = 1}^{n} 
 &\
 \frac{\mathbb{E}[Y]}{\mathbb{E}[Y]^2} \leq  \mathbb{P}(Y \neq 0)
 \end{align*}
-\qed} $$
+\qed 
+$$
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
