@@ -477,9 +477,9 @@ We first prove the right-hand side of the inequality, i.e. $$\mathbb{P}(Y \neq 0
 $$
 \begin{align*}
 &\
-\mathbb{E}[Y] = \sum_{y \in \Omega_{y}} y \mathbb{P}(Y = y) \\
+\mathbb{E}[Y] = \sum_{y \in \Omega_{y}} y \cdot \mathbb{P}(Y = y) \\
 &\
-\mathbb{E}[Y] = \sum_{y \in \Omega_{y}, y \neq 0} y \mathbb{P}(Y = y) &&\text{Separating out the term when $y$ is 0} \\
+\mathbb{E}[Y] = \sum_{y \in \Omega_{y}, y \neq 0} y \cdot \mathbb{P}(Y = y) &&\text{Separating out the term when $y$ is 0} \\
 &\
 \mathbb{E}[Y] \geq \sum_{y \in \Omega_{y}, y \neq 0} \mathbb{P}(Y = y) &&\text{Since $y \geq 0$}\\
 &\
