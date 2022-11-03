@@ -29,7 +29,7 @@ making new friends :). I can be reached out to on [email](mailto:
 lukshyaganjoo@cs.washington.edu), 
 [Instagram](https://www.instagram.com/matchstickmaan/), 
 [Linkedin](https://www.linkedin.com/in/lukshya-ganjoo-163a971b0/) 
-and more occasionally I hop on to [Twitter](https://twitter.com/matchstickmaan). If you're feeling incredibly fancy, you can always send me a request on 
+and I post the occasional banger on to [Twitter](https://twitter.com/matchstickmaan). If you're feeling incredibly fancy, you can always send me a request on 
 [GitHub](https://github.com/lukshyaganjoo).
 
 Here is an old and likely outdated copy of my [resume](images/resume.pdf)
