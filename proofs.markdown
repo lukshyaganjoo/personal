@@ -473,8 +473,8 @@ ubiquitous as the quadratic formula.
 
 **fun lemma :D** $$\frac{\mathbb{E}[Y]^2}{\mathbb{E}[Y^2]} \leq \mathbb{P}(Y \neq 0) \leq \mathbb{E}[Y]$$  
 **proof**
-$$
 We first prove the right-hand side of the inequality, i.e. $\mathbb{P}(Y \neq 0) \leq \mathbb{E}[Y]$. Using the definition of expectation, we have that
+$$
 \begin{align*}
 &\
 \mathbb{E}[Y] = \sum_{y \in \Omega_{y}} y \mathbb{P}(Y = y) \\
