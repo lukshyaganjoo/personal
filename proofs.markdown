@@ -486,6 +486,7 @@ $$
 \mathbb{E}[Y] \geq \mathbb{P}(Y \neq 0)
 \end{align*}
 $$
+
 We now prove the left-hand side of the inequality, Consider the expression $$\mathbb{E}[Y^2] \mathbb{P}(Y \neq 0)$$. We have that the following is true
 $$
 \begin{align*}
@@ -506,6 +507,5 @@ $(\sum_{i = 1}^{n} a_i b_i)^{2} \leq \sum_{i = 1}^{n} a_{i}^{2}\sum_{i = 1}^{n} 
 &\
 \frac{\mathbb{E}[Y]}{\mathbb{E}[Y]^2} \leq  \mathbb{P}(Y \neq 0)
 \end{align*}
-\qed}
-$$
+\qed} $$
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
