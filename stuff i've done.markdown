@@ -44,6 +44,13 @@ The stuff I've been up to
 - MATH 334 : Accelerated Advanced Honors Calculus
 - TA: CSE 312 (Foundations of Computing II)
 
+## winter 2023 
+
+- CSE 421 : Introduction to Algorithms
+- CSE 431 : Introduction to the Theory of Computation
+- MATH 335 : Accelerated Advanced Honors Calculus
+- PSYCH 210 : The Diversity of Human Sexuality
+
 # miscellaneous work
 
 - [MUPL Interepreter](https://github.com/lukshyaganjoo/MUPL-Interpreter-)
