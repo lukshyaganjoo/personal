@@ -39,7 +39,7 @@ The stuff I've been up to
 
 ## autumn 2022
 
-- CSE 546 : Machine Learning
+- CSE 446 : Introduction to Machine Learning
 - CSE 351 : Hardware/Software Interface
 - MATH 334 : Accelerated Advanced Honors Calculus
 - TA: CSE 312 (Foundations of Computing II)
@@ -49,8 +49,7 @@ The stuff I've been up to
 - CSE 421 : Introduction to Algorithms
 - CSE 431 : Introduction to the Theory of Computation
 - MATH 335 : Accelerated Advanced Honors Calculus
-- PSYCH 210 : The Diversity of Human Sexuality
-
+- TA: CSE 446: (Introduction to Machine Learning)
 # miscellaneous work
 
 - [MUPL Interepreter](https://github.com/lukshyaganjoo/MUPL-Interpreter-)
